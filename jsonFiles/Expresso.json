@@ -1,0 +1,59 @@
+{
+    "category": {
+        "name": "Expresso",
+        "short_name": "D",
+        "special_instructions": "Espresso: the perfect blend of intensity and elegance in every sip."
+    },
+    "menu_items": [
+        {
+            "name": "Americano",
+            "short_name": "E1",
+	        "price": 1.75,
+            "description": "Espresso shots topped with hot water create a light layer of crema culminating in this wonderfully rich cup with depth and nuance."
+
+        },
+        {
+            "name": "Cappuccino",
+            "short_name": "E2",
+	        "price": 2.75,
+            "description": "Dark, rich espresso lies in wait under a smoothed and stretched layer of thick milk foam. An alchemy of barista artistry and craft."
+
+        },
+        {
+            "name": "Latte",
+            "short_name": "E3",
+	        "price": 3.25,
+            "description":"Our dark, rich espresso balanced with steamed milk and a light layer of foam. A perfect milk-forward warm-up."
+        },
+        {
+            "name": "Caffè Misto",
+            "short_name": "E4",
+	        "price": 2.35,
+            "description":"A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed."
+        },
+        {
+            "name": "Caramel Macchiato",
+            "short_name": "E5",
+	        "price": 3.25,
+            "description":"Freshly steamed milk with vanilla-flavored syrup marked with espresso and topped with a caramel drizzle for an oh-so-sweet finish."
+        },
+        {
+            "name": "Caffè Mocha",
+            "short_name": "E6",
+	        "price": 2.15,
+            "description": "Our rich, full-bodied espresso combined with bittersweet mocha sauce and steamed milk, then topped with sweetened whipped cream. The classic coffee drink that always sweetly satisfies."
+        },
+        {
+            "name": "Honey Almondmilk Flat White",
+            "short_name": "E7",
+	        "price": 2.35,
+            "description": "This flat white intentionally pairs almondmilk and Starbucks® Blonde Espresso Roast with a hint of honey, making a perfect amount of creamy, nutty sweetness."
+        },
+        {
+            "name": "Espresso",
+            "short_name": "E8",
+	        "price": 1.25,
+            "description": "Our smooth signature Espresso Roast with rich flavor and caramelly sweetness is at the very heart of everything we do."
+        }
+    ]
+}

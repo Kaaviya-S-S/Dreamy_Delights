@@ -1,0 +1,16 @@
+<div class="menu-item-tile col-md-6">   <!-- each item in menu takes half the screen (6 columns) [2 grids] -->
+    <div class="row">                   <!-- subdivide that into [5-col picture] + [7-col text] -->
+        <div class="col-sm-5">
+            <div class="menu-item-photo">
+                <div>{{short_name}}</div>
+                <img width="250" height="250" src="/images/menu/{{catShortName}}/{{short_name}}.jpg" alt="{{name}}">
+            </div>
+            <div class="menu-item-price"> {{price}} </div>
+        </div>  <!--End of photo and price-->
+        <div class="menu-item-description col-sm-7">
+            <h3 class="menu-item-title"> {{name}} </h3>
+            <p class="menu-item-details"> {{description}} </p>
+        </div>  <!--End of food name and desc-->
+    </div>      <!--End of one tile (.row)-->
+    <hr class="visible-xs">
+</div>  

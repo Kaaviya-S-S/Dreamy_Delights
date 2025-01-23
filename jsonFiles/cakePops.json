@@ -1,0 +1,35 @@
+{
+    "category": {
+        "name": "Cake Pops",
+        "short_name": "CP",
+        "special_instructions": "Bite-sized joy wrapped in frosting—that's a cake pop."
+    },
+    "menu_items": [
+        {
+            "name": "Chocolate Cake Pop",
+            "short_name": "CP1",
+	        "price": 2.25,
+            "description": "Bite-sized chocolate cake mixed with chocolate buttercream, dipped in chocolaty icing and topped with white sprinkles."
+
+        },
+        {
+            "name": "Vanilla Cake Pop",
+            "short_name": "CP2",
+	        "price": 2.45,
+            "description": "Moist vanilla cake blended with creamy buttercream, dipped in a rich white chocolate coating, and topped with delicate vanilla bean specks for a classic, elegant finish."
+
+        },
+        {
+            "name": "Orange Cream Cake Pop",
+            "short_name": "CP3",
+	        "price": 2.35,
+            "description":"Orange cream cake mixed with buttercream, dipped in chocolaty icing and finished with an orange slice design."
+        },
+        {
+            "name": "Birthday Cake Pop",
+            "short_name": "CP4",
+	        "price": 2.75,
+            "description":"Bite-sized vanilla cake mixed with vanilla buttercream, dipped in pink chocolaty icing and topped with white sprinkles."
+        }
+    ]
+}

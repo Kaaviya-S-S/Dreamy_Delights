@@ -1,0 +1,26 @@
+[
+      {
+        "id": "DD1",
+        "name": "Frappuccino",
+        "short_name": "F",
+        "special_instructions": "Frappuccinos: where sweetness meets chill."
+      },
+      {
+        "id": "DD2",
+        "name": "Expresso",
+        "short_name": "E",
+        "special_instructions": "Espresso: the perfect blend of intensity and elegance in every sip."
+      },
+      {
+        "id": "DD3",
+        "name": "Cake Pops",
+        "short_name": "CP",
+        "special_instructions": "Cake pops: a delightful bite-sized treat that brings joy with every pop."
+      },
+      {
+        "id": "DD4",
+        "name": "Donut",
+        "short_name": "D",
+        "special_instructions": "Donuts: the sweet, round moment of happiness you can hold in your hand"
+      }
+]

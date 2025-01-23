@@ -1,0 +1,35 @@
+{
+    "category": {
+        "name": "Donuts",
+        "short_name": "D",
+        "special_instructions": "Golden, fluffy donut glazed to perfection and sprinkled with sweetness."
+    },
+    "menu_items": [
+        {
+            "name": "Chocolate Donut",
+            "short_name": "D1",
+	        "price": 1.89,
+            "description": "Rich chocolate donut coated in smooth chocolate glaze, drizzled with dark chocolate, and topped with a sprinkle of cocoa nibs for a decadent finish."
+
+        },
+        {
+            "name": "Glazed Donut",
+            "short_name": "D2",
+	        "price": 1.99,
+            "description": "Soft, airy donut dipped in a sweet, glossy vanilla glaze, finished with a delicate sugary sheen for the perfect melt-in-your-mouth experience."
+
+        },
+        {
+            "name": "Strawberry Iced Donut",
+            "short_name": "D3",
+	        "price": 2.25,
+            "description":"Fluffy donut dipped in a luscious strawberry glaze, topped with a drizzle of strawberry icing and a sprinkle of dried strawberry bits for a fruity, delightful finish."
+        },
+        {
+            "name": "Cinnamon Milk Glazed Donut",
+            "short_name": "D4",
+	        "price": 2.75,
+            "description":"Warm, fluffy donut infused with hints of cinnamon, dipped in a creamy cinnamon milk glaze, and finished with a dusting of spiced sugar and a swirl of vanilla drizzle for a perfectly comforting bite."
+        }
+    ]
+}

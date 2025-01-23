@@ -1,0 +1,47 @@
+{
+    "category": {
+        "name": "Frappuccino",
+        "short_name": "F",
+        "special_instructions": ""
+    },
+    "menu_items": [
+        {
+            "name": "Caramel Ribbon Crunch Frappuccino",
+            "short_name": "F1",
+	    "price": 4.19,
+            "description": "Buttery caramel syrup blended with coffee, milk and ice, then topped with a layer of dark caramel sauce, whipped cream, caramel drizzle and a crunchy caramel-sugar topping—oh-so-beautifully delicious."
+
+        },
+        {
+            "name": "Chai Crème Frappuccino",
+            "short_name": "F2",
+	    "price": 3.78,
+            "description": "A creamy blend of spicy classic chai, milk and ice. Topped with sweetened whipped cream and a dash of cinnamon. Spice up your afternoon treat."
+
+        },
+        {
+            "name": "Chocolate Cookie Crumble Crème Frappuccino",
+            "short_name": "F3",
+	    "price": 4.58,
+            "description":"Mocha sauce and Frappuccino chips are blended with milk and ice, layered on top of whipped cream and chocolate cookie crumble and topped with vanilla whipped cream, mocha drizzle and even more chocolate cookie crumble. These layers ensure each sip is as good as the last; all the way to the end."
+        },
+        {
+            "name": "Matcha Crème Frappuccino",
+            "short_name": "F4",
+	    "price": 4.35,
+            "description":"This blend of sweetened premium matcha green tea, milk and ice—topped off with sweetened whipped cream—inspires a delicious boost and good green vibes."
+        },
+        {
+            "name": "Strawberry Crème Frappuccino",
+            "short_name": "F5",
+	    "price": 4.12,
+            "description":"Summer's favorite berry is the star of this delicious Frappuccino® Blended Beverage—a blend of ice, milk and strawberry puree layered on top of a splash of strawberry puree and finished with vanilla whipped cream."
+        },
+        {
+            "name": "White Chocolate Crème Frappuccino",
+            "short_name": "F6",
+	    "price": 4.25,
+            "description": "A smooth blend of white chocolate sauce, milk and ice topped with whipped cream for a remarkable flavor that surprisingly wows."
+        }
+    ]
+}
