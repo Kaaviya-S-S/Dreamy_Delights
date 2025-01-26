@@ -84,7 +84,7 @@ $(function () {
           homeHtmlUrl,
           function (homeHtml) {
             var chosenCategoryShortName = chooseRandomCategory(categories);
-            var ShortName = "'" + chosenCategoryShortName.short_name + "'";
+            var ShortName = chosenCategoryShortName.short_name;
             var homeHtmlToInsertIntoMainPage = insertProperty( homeHtml, "randomCategoryShortName", ShortName );
             insertHtml( "#main-content", homeHtmlToInsertIntoMainPage );
           },
