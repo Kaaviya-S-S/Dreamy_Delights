@@ -19,7 +19,7 @@ $(function () {
 (function (window) {
     
     var dd =  {};
-    var HomeHtml = "snippets/home-snippet.html";
+    var homeHtmlUrl = "snippets/home-snippet.html";
     var allCategoriesUrl = "https://dreamydelight-7ba4e-default-rtdb.firebaseio.com/menu-categories.json";   //json string of data
     var categoriesTitleHtml = "snippets/categories-title-snippet.html";
     var categoryHtml = "snippets/category-snippet.html";
@@ -74,14 +74,28 @@ $(function () {
         //on 1st load show home page/view
         showLoading("#main-content");
         $ajaxUtils.sendGetRequest (
-            HomeHtml,
-            function( responseText ){
-                document.querySelector("#main-content").innerHTML = responseText;
-            },
-            false
-        );
+            allCategoriesUrl, buildAndShowHomeHTML,
+            true);
     });
 
+
+    function buildAndShowHomeHTML (categories) {
+        $ajaxUtils.sendGetRequest(
+          homeHtmlUrl,
+          function (homeHtml) {
+            var chosenCategoryShortName = chooseRandomCategory(categories);
+            var ShortName = "'" + chosenCategoryShortName.short_name + "'";
+            var homeHtmlToInsertIntoMainPage = insertProperty( homeHtml, "randomCategoryShortName", ShortName );
+            insertHtml( "#main-content", homeHtmlToInsertIntoMainPage );
+          },
+          false); 
+    }
+
+    function chooseRandomCategory (categories) 
+    {
+        var randomArrayIndex = Math.floor(Math.random() * categories.length);
+        return categories[randomArrayIndex];
+    }
 
     //load the menu categories
     dd.loadMenuCategories = function () {
