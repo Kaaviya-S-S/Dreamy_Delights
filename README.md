@@ -1,4 +1,4 @@
-# Dreamy Delights Café  
+# Dreamy Delights Café 🌟  
 A modern and responsive web application designed for Dreamy Delights Café, providing a seamless experience for customers to browse the menu, access location details, and get in touch with the café. The site is built using HTML, CSS, JavaScript, Bootstrap, and Firebase for data storage, ensuring a smooth and interactive experience across all devices.  
 
 🚀 **Features**
