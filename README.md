@@ -13,4 +13,4 @@ A modern and responsive web application designed for Dreamy Delights Café, prov
 * Backend/Database: Firebase
 * APIs: Google Maps API
 
-**Check out the deployed site:**
+**Check out the deployed site:** https://kaaviya-s-s.github.io/Dreamy_Delights/
